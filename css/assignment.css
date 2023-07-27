@@ -242,6 +242,7 @@ a:-webkit-any-link {
     /* object-fit: contain; */
     position: relative;
     padding: 0% 0% 10% 10%;
+    color: white;
 }
 
 .comment_footer {
@@ -279,6 +280,14 @@ a:-webkit-any-link {
     height: 300px;
     align-items: center;
     flex-direction: column;
+}
+
+.services_detail h3{
+    color: #ffffff;
+}
+
+.services_detail p{
+    color:#979494;
 }
 
 .services_detail_img {
@@ -329,6 +338,11 @@ a:-webkit-any-link {
 
 .platform_detail p {
     color: #979494;
+    padding: 0 1%;
+}
+
+.date p{
+    padding: 0;
 }
 
 .platform_detail img {
