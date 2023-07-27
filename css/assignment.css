@@ -85,7 +85,10 @@ a:-webkit-any-link {
 #project_menu {
     display: flex;
     justify-content: space-evenly;
+}
 
+#project_menu a {
+color:white;
 }
 
 #project p {
@@ -411,6 +414,10 @@ a:-webkit-any-link {
     color: #5a5a5a;
 }
 
+.contact_details_contant a {
+    color: #5a5a5a;
+}
+
 #contact_button {
     background-color: #05ff00;
     border-radius: 90px;
@@ -419,7 +426,7 @@ a:-webkit-any-link {
 }
 
 footer {
-    background-color: #ffffff;
+    background-color: #323232;
     margin-top: 10%;
 }
 
