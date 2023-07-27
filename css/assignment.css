@@ -35,6 +35,14 @@ a:-webkit-any-link {
     position: relative;
 }
 
+.full{
+    display: block;
+}
+
+.second{
+display: none;
+}
+
 #home_back img {
     width: 100%;
     position: relative;
@@ -110,7 +118,7 @@ a:-webkit-any-link {
 }
 
 .row img {
-    width: 100%;
+    width: 90%;
 }
 
 #resume .topic {
@@ -147,6 +155,7 @@ a:-webkit-any-link {
     font-size: x-small;
     color: #ffffff;
     display: block;
+    padding:;
 }
 
 #education {
@@ -181,7 +190,7 @@ a:-webkit-any-link {
 }
 
 #details p {
-    font-size: 180%;
+    font-size: 100%;
 }
 
 #intro .topic {
@@ -209,12 +218,7 @@ a:-webkit-any-link {
     color: #5a5a5a;
 }
 
-#hire {
-    background-color: #05ff00;
-    border-radius: 10px;
-    max-width: 200px;
-    text-align: center;
-}
+
 
 #hire a {
     color: #ffffff;
@@ -378,7 +382,7 @@ a:-webkit-any-link {
 }
 
 #contact_message {
-    width: 40%;
+    width: 25%;
 }
 
 .contact_contant {
@@ -386,7 +390,6 @@ a:-webkit-any-link {
     /* width: 300px; */
     height: 50px;
     color: #979494;
-    padding: 15px;
     margin-top: 10%;
 }
 
@@ -394,15 +397,29 @@ a:-webkit-any-link {
     background-color: #323232;
     min-height: 50px;
     color: #979494;
-    height: 200px;
-    padding: 15px;
     margin-top: 10%;
+}
+
+.text {
+    background-color: #323232;
+    height: 50px;
+    color: #979494;
+    padding: 0 15px;
+    width: 100%;
+}
+
+#message {
+    background-color: #323232;
+    height: 50px;
+    color: #979494;
+    padding: 0 15px;
+    width: 100%;
+    height: 200px;
 }
 
 #contact_message_topic {
     font-size: 20px;
     color: #ffffff;
-
 }
 
 #contact_details_topic {
@@ -422,7 +439,7 @@ a:-webkit-any-link {
     color: #5a5a5a;
 }
 
-#contact_button {
+.button {
     background-color: #05ff00;
     border-radius: 10px;
     width: 140px;
@@ -464,7 +481,6 @@ footer {
     #intro {
         width: 80%;
     }
-
 
 }
 
@@ -550,6 +566,18 @@ footer {
     }
 }
 
+@media screen and (max-width:950px){
+
+    .full{
+        display: none;
+    }
+    
+    .second{
+    display: block;
+    }
+
+}
+
 @media screen and (max-width:700px) {
     #l1 {
         font-size: 40px;
@@ -582,6 +610,14 @@ footer {
 
     #contact_message {
         width: 100%;
+    }
+
+    .text {
+        width: 95%;
+    }
+
+    #message {
+        width: 95%;
     }
 
     .platform_detail {
