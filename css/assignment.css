@@ -155,7 +155,7 @@ display: none;
     font-size: x-small;
     color: #ffffff;
     display: block;
-    padding:10%;
+    
 }
 
 #education {
@@ -167,7 +167,7 @@ display: none;
 }
 
 .position {
-    color: #05ff00;
+    color: #ffffff;
     display: block;
 }
 
@@ -469,6 +469,15 @@ footer {
     width: 65px;
     top: 10%;
     bottom: 10%;
+}
+
+.copyright{
+    text-align: center;
+    padding-bottom:1% ;
+}
+
+.copyright p {
+    margin: 0;
 }
 
 @media screen and (max-width:1200px) {
