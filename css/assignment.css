@@ -88,7 +88,7 @@ a:-webkit-any-link {
 }
 
 #project_menu a {
-color:white;
+    color: white;
 }
 
 #project p {
@@ -214,6 +214,10 @@ color:white;
     border-radius: 10px;
     max-width: 200px;
     text-align: center;
+}
+
+#hire a {
+    color: #ffffff;
 }
 
 #workplace .topic {
@@ -410,9 +414,7 @@ color:white;
     color: #598DAA;
 }
 
-.contact_details_contant p {
-    color: #5a5a5a;
-}
+
 
 .contact_details_contant a {
     color: #5a5a5a;
@@ -420,9 +422,15 @@ color:white;
 
 #contact_button {
     background-color: #05ff00;
-    border-radius: 90px;
+    border-radius: 10px;
     width: 140px;
     text-align: center;
+    padding: 1px;
+    margin: 1% 0;
+}
+
+#contact_button a{
+    color: #ffffff;
 }
 
 footer {
