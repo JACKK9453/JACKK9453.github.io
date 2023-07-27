@@ -445,6 +445,7 @@ a:-webkit-any-link {
     }
 
     
+}
 
 @media screen and (max-width:1100px) {
     #resume_content {
@@ -577,17 +578,15 @@ a:-webkit-any-link {
         align-items: normal;
     }
 
-    .services_detail {
-        height: 450px;
-    }
-
     .services_detail{
         width:80%;
+        height: 300px;
     }
 
     .platform_detail {
         width: 80%;
         padding-bottom: 15%;
-        height: 600px;
+        height: 550px;
     }
+
 }
